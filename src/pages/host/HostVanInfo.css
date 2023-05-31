@@ -1,0 +1,13 @@
+.host-van-detail-info {
+  color: gray;
+}
+.host-van-detail-info h1,
+.host-van-detail-info p {
+  padding: 0.3rem 0;
+}
+p {
+  font-size: 0.9rem;
+}
+span {
+  color: #c0bdbd;
+}

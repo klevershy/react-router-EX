@@ -1,0 +1,26 @@
+.navbar {
+  padding: 0.3rem 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #063514;
+}
+.logo {
+  font-size: 1.6rem;
+}
+.logo h3 {
+  text-decoration: none;
+  font-style: normal;
+  color: salmon;
+}
+.listMenu a {
+  color: white;
+  font-size: 1rem;
+  margin: 0 1rem;
+  text-transform: uppercase;
+}
+
+.isActive-link {
+  color: salmon !important;
+  text-decoration: underline;
+}

@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #222;
+  font-size: 65%;
+  color: salmon;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: grey;
+}

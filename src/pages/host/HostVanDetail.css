@@ -1,0 +1,35 @@
+.return-option {
+  font-size: 1rem;
+  width: 60%;
+  margin: 1rem auto;
+}
+.vanDetail-section {
+  width: 60%;
+  margin: 0 auto;
+}
+.van-single-detail {
+  display: flex;
+  /* margin: 1rem auto; */
+  background: #111;
+  padding: 1.5rem;
+}
+.van-single-content {
+  margin-left: 2rem;
+}
+.van-single-content h1 {
+  font-size: 2rem;
+}
+.van-single-content p {
+  font-size: 1rem;
+}
+.hostvan-detail-nav {
+  /* margin: 1rem 0; */
+  background: #333;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+.hostvan-detail-nav a {
+  color: green;
+  font-size: 1rem;
+  padding: 0 30px;
+}

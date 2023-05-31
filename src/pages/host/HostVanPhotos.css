@@ -1,0 +1,11 @@
+.host-img-photos {
+  width: 100%;
+  margin: 0 auto;
+}
+.host-img-photos h1 {
+  padding: 0.7rem 0;
+  text-align: center;
+}
+.host-img-photos img {
+  width: 100%;
+}

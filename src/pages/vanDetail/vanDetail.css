@@ -1,0 +1,40 @@
+.van-detail-container {
+  margin: 2% 15%;
+}
+.van-detail {
+  padding: 4px;
+}
+.van-detail img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.van-detail i {
+  margin-top: 1rem;
+  color: white;
+  font-style: normal;
+  font-size: 0.7rem;
+  background: salmon;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  color: #222;
+  text-transform: uppercase;
+}
+.van-detail h2 {
+  padding-top: 1.5rem;
+  padding-bottom: 0.8rem;
+  font-size: 1.6rem;
+}
+.van-detail .van-price {
+  font-size: 1.1rem;
+  color: white;
+}
+.van-detail .van-description {
+  padding: 1rem 0.5rem 1rem 0;
+  font-size: 0.9rem;
+}
+.van-detail button {
+  padding: 0.5rem 1rem;
+  background: #063514;
+  color: salmon;
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+import { useEffect, useState } from "react";
+import { useParams, Link, useLocation } from "react-router-dom";
+import "./vanDetail.css";
+
+export default function VanDetail() {
+  const params = useParams();
+  const location = useLocation();
+  console.log(location);
+  const [van, setVan] = useState(null);
+
+  useEffect(() => {
+    fetch(`/api/vans/${params.id}`)
+      .then((res) => res.json())
+      .then((data) => setVan(data.vans));
+  }, [params.id]);
+
+  const search = location.state?.search || "";
+  const type = Location.state?.type || "all";
+
+  return (
+    <>
+      <div className="return-option">
+        <Link to={`..${search}`} relative="path" className="back-button">
+          &larr; back to {type} vans
+        </Link>
+      </div>
+      <div className="van-detail-container">
+        {van ? (
+          <div className="van-detail">
+            <img src={van.imageUrl} alt="vanImg" />
+            <i className={`van-type ${van.type} selected`}>{van.type}</i>
+            <h2>{van.name}</h2>
+            <p className="van-price">
+              <span>${van.price}</span>/day
+            </p>
+            <p className="van-description">{van.description}</p>
+            <button className="link-button">Rent this van</button>
+          </div>
+        ) : (
+          <h2>Loaading....</h2>
+        )}
+      </div>
+    </>
+  );
+}

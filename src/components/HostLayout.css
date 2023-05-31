@@ -1,0 +1,18 @@
+.host-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #012b24;
+}
+.host-nav a {
+  padding: 0.5rem 1rem;
+  color: grey;
+  font-size: 0.8rem;
+}
+.activeLink {
+  color: white !important;
+}
+
+.no-Active {
+  color: #162e16 !important;
+}

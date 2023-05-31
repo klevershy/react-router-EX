@@ -1,0 +1,11 @@
+.notFound {
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.notFound button {
+  margin-top: 1rem;
+  background: salmon;
+  color: black;
+}
